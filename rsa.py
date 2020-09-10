@@ -1,21 +1,3 @@
-"""
-Program Documentation Header
-## Name: Lukas McCullough
-## rsa.py
-##
-## Purpose: rsa thingy
-##
-## Input: <what will the inputs to the program be>
-##
-## Output: <what information will the program output/return>
-##
-## Certification of Authenticity:
-## <include one of the following>
-## I certify that this lab is entirely my own work.
-## I certify that this lab is my own work, but I discussed it with: <Name(s)>
-##
-
-"""
 solvefor = input("enter what you are solving for (p,q,n,t,ct,d):")
 def main(solvefor):
     tofind = solvefor
