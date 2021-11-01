@@ -23,21 +23,19 @@ def main(solvefor):
         e = int(input("enter the e value"))
         n = int(input("enter the n value"))
         return (pt**e)%n
-""" not done yet
     if tofind == "d":
         q = int(input("enter the q value"))
         p = int(input("enter the p value"))
         t = (q-1)*(p-1)
         e = int(input("enter the e value"))
-        #print (t)
-        #d = e**-1 (%t)
-        d= (1//t)/e
-        #d1 = e**-1
-        #print (d1)
-        #d = int(d1%t)
-        #return ((e**-1)(y%t))
-        print(d)
-"""
-print (main(solvefor))
+        n= p*q
 
-#nc 2019shell1.picoctf.com 41419
+        #d = ed%w = 1
+        x = 1
+        while((e * x)%t != 1):
+            x = x+1
+
+
+        print(x)
+
+print (main(solvefor))
